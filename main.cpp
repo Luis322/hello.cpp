@@ -1,35 +1,83 @@
 #include <iostream>
 
 using namespace std;
+
 int main()
 {
+    int x = 0;
+    int a,b,c,d,e;
+
     cout << "Hello world!" << endl;
-    cout << "Luis Alberto Palomino Benique" << endl;
-    cout << "jhorel revilla calderon" << endl;
+    /*cin >> x;
+    a = x/10000;
+
+    b = x/1000;
+    b = b%10;
+
+    c = x/100;
+    c = c%100;
+    c = c%10;
+
+    d = x/10;
+    d = d%1000;
+    d = d%100;
+    d = d%10;
+
+    e = x%10000;
+    e = e%1000;
+    e = e%100;
+    e = e%10;
+//escribir un programa que me pida n enteros, despues que solicite 5 numeros y que imprima el promedio, el mayor, el menor
+    cout <<a<<" "<<b<<" "<<c<<" "<<d<<" "<<e;
+    cout <<"next"<<endl;
 
 
+    int n,ma,me,z;
+    float pro;
+    n = 0;
+    ma = 0;
+    me = 0;
+    pro = 0;
+    cin>>z;
+    while (n<z){
+        cin >>a;
+        if (a>=ma){
+            ma = a;
+        }
+        if (a<=me || a == 1){
+            me = a;
+        }
 
-    //x = 1
-    //int y;
-    //double x,z,d,r,pi;
-    //pi = 3.1416;
-    //cout <<"X = ";
-    //cout << "Radio = ";
-    //cin >> x;
-    //cout <<"Y = ";
-    //cin >> y;
-    //z = x+y;
-    //d = x/y;
-    //cout << z << "--" << d << endl;
-    //r = pi * (x*x);
-    //cout << "El area es \n" << r << "\n" << pi  << endl;
+        pro = pro+a;
+        n=n+1;
+    };
+    pro = pro/n;
+    cout<<ma<<" "<<me<<" "<<pro;
+    */
+    //PALINDROMO
+    cin >> x;
+    a = x/10000;
 
-    cout << "*********"<<"\t"<<"***"<<endl;
-    cout << "*       *"<<"\t"<<"   *"<< endl;
+    b = x/1000;
+    b = b%10;
 
+    c = x/100;
+    c = c%100;
+    c = c%10;
 
+    d = x/10;
+    d = d%1000;
+    d = d%100;
+    d = d%10;
 
+    e = x%10000;
+    e = e%1000;
+    e = e%100;
+    e = e%10;
 
+    if (a == e and b==d){
+        cout<<"Palindromo"<<endl;
+    }else{
+    cout<<"No es Palindromo"<<endl;}
     return 0;
-
 }
