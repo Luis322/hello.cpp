@@ -82,13 +82,15 @@ int main()
 
     //PROBLEM 6 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-    /*int n,cont;
+    /*int n,cont,c2;
     cont = 2;
+    c2 = 1;
     cout<<"Ingrese un numero"<<endl;
     cin >> n;
-    while (cont < n){
+    while (c2 <= n){
         if(cont%2 != 0 and cont%3 != 0 and cont%5!= 0 or cont == 2 or cont == 3 or cont == 5){
             cout<<cont<<endl;
+            c2 = c2+1
         }
         cont = cont + 1;
     }*/
@@ -121,7 +123,7 @@ int main()
     //PROBLEM 9 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
     /*int ano;
-    cout<<"Ingrese un año"<<endl;
+    cout<<"Ingrese un aÃ±o"<<endl;
     cin>>ano;
     if (ano%4 == 0){
         cout<<"Es un anio bisiesto";
