@@ -125,7 +125,7 @@ int main()
     /*int ano;
     cout<<"Ingrese un año"<<endl;
     cin>>ano;
-    if (ano%4 == 0){
+    if (ano%4==0 && ano%100!=0 || ano%400==0){
         cout<<"Es un anio bisiesto";
     }else{
     cout<<"No es un anio bisiesto";}*/
