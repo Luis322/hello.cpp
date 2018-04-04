@@ -75,7 +75,7 @@ int main()
     cout<<"Ingrese un numero"<<endl;
     cin >> num;
 
-    if(num%2 != 0 and num%3 != 0 and num%5!= 0 or num == 2 or num == 3 or num == 5){
+    if(num%2 && num%3 && num%5 && num%7 && num%11 || num==2 || num==3 || num==5 || num==7 || num==11){
         cout<<"Es un numero primo"<<endl;
     }else{
     cout<<"No es un numero primo"<<endl;}*/
@@ -88,9 +88,9 @@ int main()
     cout<<"Ingrese un numero"<<endl;
     cin >> n;
     while (c2 <= n){
-        if(cont%2 != 0 and cont%3 != 0 and cont%5!= 0 or cont == 2 or cont == 3 or cont == 5){
+        if(cont%2 && cont%3 && cont%5 && cont%7 && cont%11 || cont==2 || cont==3 || cont==5 || cont==7 || cont==11){
             cout<<cont<<endl;
-            c2 = c2+1
+            c2 = c2+1;
         }
         cont = cont + 1;
     }*/
