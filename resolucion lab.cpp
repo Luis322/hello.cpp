@@ -57,7 +57,11 @@ void intercambio(int a,int b){
     a-=b;
     cout<<a<<" ;"<<b;
 }
-
+int intercambioBit(int &a,int &b){
+    a^=b;
+    b^=a;
+    a^=b;
+    cout <<a<<", "<<b;
 
 int main()
 {
@@ -68,6 +72,9 @@ int main()
     //Primos(100);
     //cout<<potencia(2,10);
     //intercambio(1,2);
+    int a=0;
+    int b=1;
+    intercambioBit(a,b);
 
     return 0;
 }
