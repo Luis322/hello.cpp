@@ -40,7 +40,32 @@ int tamanio(char arr[],int len){
     }
     return sum
 }
+int tamArrC(char arr[]){
+    int c=0;
+    for(int i=0;arr[i]!='\0';i++){
+        c++;
+
+    }
+    return c ;
 }
+int tamArrCpuntero(char *punt){
+    int c =0;
+    for(int i=0;*(punt+i)!='\0';i++){
+        c++;
+    }
+    return c;
+}
+void strCopy(char m[],char n[]){
+    for(int i=0; m[i]!='\0';i++){
+        n[i]=m[i];
+    }
+}
+void strCopypunt(char *m,char*n){
+    for(int i=0;*(m+i)!='\0';i++){
+        *(n+i)=*(m+i);
+    }
+}
+
 int main()
 {
     cout << "Hello world!" << endl;
@@ -57,6 +82,11 @@ int main()
     //for(;i<4;i++){
     //    cout<<p[i]<<", ";
     //}
+    char a[5]="hola";
+    char b[5]={};
+    //cout<<tamArrCpuntero(a);
+    strCopypunt(a,b);
+    cout << b;
 
     cout<<tamanio(q,4);
 
