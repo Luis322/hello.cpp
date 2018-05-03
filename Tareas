@@ -1,3 +1,16 @@
+#include <iostream>
+
+using namespace std;
+void notCient(char cad[],char *numc ){
+    char val[1];
+    for (int i=0;cad[i]!='\0';i++){
+        if(numc[i]=='.'){
+            val[i]=cad[i];
+        }
+        //cad++;
+    }
+    cout<< val;
+}
 int longcad(char *cadena) {
    int i = 0;
 
