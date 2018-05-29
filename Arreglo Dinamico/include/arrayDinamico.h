@@ -13,6 +13,11 @@ class arrayDinamico
         void eliminar_arr(int pos);
         int mayor();
         int menor();
+        bool esPrimo(int n);
+        int mayorPrimo();
+        int menorPrimo();
+        void invertir();
+        void ordenar();
         float promedio();
         void imprimir();
         ~arrayDinamico();
