@@ -99,6 +99,57 @@ float arrayDinamico::promedio()
     m=m/len;
     return m;
 }
+bool arrayDinamico::esPrimo(int n)
+{
+   for(int i=2;i<n;i++)
+   {   
+      if(!(n%i))
+      {
+         return 0;
+      }else{return 1}
+}
+int arrayDinamico::mayorPrimo()
+{
+   int mayor=0;
+    for(int i=0; i<len; i++)
+    {
+       if(esPrimo(data[i]){
+          if(mayor<data[i])
+           {
+               mayor=data[i];
+           }
+      }
+     
+    return mayor;
+ }
+int arrayDinamico::menorPrimo()
+{
+   int menor=9999999999999999;
+    for(int i=0; i<len; i++)
+    {
+       if(esPrimo(data[i]){
+          if(menor>data[i])
+           {
+               menor=data[i];
+           }
+      }
+    if(menor==9999999999999999){
+       return 0;
+    }else{
+       return menor;
+    }
+ }
+void arrayDinamico::invertir()
+{
+    int z=len-1;
+    for(int i=0; i<len/2; i++)
+    {
+        int a=data[i];
+        data[i]=data[z];
+        data[z]=a;
+        z--;
+    }
+}   
 void arrayDinamico::imprimir()
 {
     for (int i=0; i<len; i++)
