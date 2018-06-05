@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1528208077 source:d:\control resuelto\main.cpp
+	<iostream>
+	"Point.h"
+
+1528208820 d:\control resuelto\include\point.h
+
+1528208820 source:d:\control resuelto\src\point.cpp
+	"Point.h"
+
