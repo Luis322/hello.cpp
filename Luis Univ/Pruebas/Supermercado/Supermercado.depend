@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1528899389 source:d:\luis univ\pruebas\supermercado\main.cpp
+	<iostream>
+	"Supermercado.h"
+
+1528899294 source:d:\luis univ\pruebas\supermercado\src\supermercado.cpp
+	"Supermercado.h"
+	"Producto.h"
+	<iostream>
+
+1528977670 d:\luis univ\pruebas\supermercado\include\supermercado.h
+	"Producto.h"
+
+1528977540 d:\luis univ\pruebas\supermercado\include\producto.h
+	"Supermercado.h"
+
+1528875670 source:d:\luis univ\pruebas\supermercado\src\carne.cpp
+	"Carne.h"
+
+1528881641 d:\luis univ\pruebas\supermercado\include\carne.h
+	"Producto.h"
+
+1528875641 source:d:\luis univ\pruebas\supermercado\src\embutido.cpp
+	"Embutido.h"
+
+1528900071 d:\luis univ\pruebas\supermercado\include\embutido.h
+	"Producto.h"
+
+1528875725 source:d:\luis univ\pruebas\supermercado\src\fruta.cpp
+	"Fruta.h"
+
+1528881644 d:\luis univ\pruebas\supermercado\include\fruta.h
+	"Producto.h"
+
+1528875714 source:d:\luis univ\pruebas\supermercado\src\menestras.cpp
+	"Menestras.h"
+
+1528881638 d:\luis univ\pruebas\supermercado\include\menestras.h
+	"Producto.h"
+
+1528877624 source:d:\luis univ\pruebas\supermercado\src\producto.cpp
+	"Producto.h"
+
+1528875692 source:d:\luis univ\pruebas\supermercado\src\verdura.cpp
+	"Verdura.h"
+
+1528881647 d:\luis univ\pruebas\supermercado\include\verdura.h
+	"Producto.h"
+

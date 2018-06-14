@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1528990096 source:d:\luis univ\tienda\main.cpp
+	<iostream>
+	"Tienda.h"
+
+1528991403 source:d:\luis univ\tienda\src\tienda.cpp
+	"Tienda.h"
+	<iostream>
+	"Verdura.h"
+
+1528990712 d:\luis univ\tienda\include\tienda.h
+	"Producto.h"
+
+1528988646 source:d:\luis univ\tienda\src\producto.cpp
+	"Producto.h"
+
+1528990921 d:\luis univ\tienda\include\producto.h
+	"Producto.h"
+	"Tienda.h"
+
+1528991303 source:d:\luis univ\tienda\src\verdura.cpp
+	"Verdura.h"
+	<iostream>
+
+1528991827 d:\luis univ\tienda\include\verdura.h
+	<Producto.h>
+
